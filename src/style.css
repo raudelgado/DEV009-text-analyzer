@@ -1,0 +1,50 @@
+header {
+  
+    background-color: beige;
+}
+
+footer {
+    background-color: beige;
+    
+}
+
+.metricas {
+
+    background-color: beige;
+}
+
+
+.palabras {
+    background-color: darkgray
+}
+.caracteres {
+    background-color: darkgray;
+}
+
+.caracteres-sin {
+    background-color: darkgray;
+}
+
+
+
+.numeros {
+    background-color: darkgray
+}
+
+.sumnumeros {
+    background-color: darkgray
+}
+
+
+.promedio {
+    background-color: darkgray
+}
+
+
+textarea[name] {
+    background-color: beige;
+}
+
+input#id {
+    background-color: beige;
+}

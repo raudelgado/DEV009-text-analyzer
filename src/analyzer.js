@@ -19,4 +19,6 @@ const analyzer = {
   },
 };
 
+let 
+
 export default analyzer;

@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<header>
   <meta charset="utf-8">
-  <title>Analizador de texto</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <div>
+  <title>Analizador de Texto</title>
+   <h1>Analizador de texto</h1> 
+  </div>
+
+  <link rel="stylesheet" href="style.css"/>
+</header>
 
 <body>
   <script src="index.js" type="module"></script>
+
+  <form action="/action_page.php"> 
+  <ul class="metricas"> 
+     <li>
+      <p> <span class="palabras"> Palabras</span></p>
+    </li>
+     <li>
+      <p> <span class="caracteres">Caracteres</span>
+      </p>
+    </li>
+     <li> 
+      <p> <span class="caracteres-sin">Caracteres sin espacios</span></p>
+     </li> 
+     <li>
+      <p> <span  class="numeros">Números</span></p>
+    </li>
+     <li>
+    <p><span class="sumnumeros"> Suma números</span></p>
+    </li>
+     <li>
+      <p><span class="promedio"> Promedio Longitud </span></p>
+    </li>
+  </ul>
+  <textarea name="textarea" minlength="05" placeholder="Inserte su texto aquí..."></textarea>
+  
+  <div> <br>
+  <input id="reset" type="reset" value="Limpiar texto" > 
+  <br> </div>
+</form>
 </body>
+
+
+<footer>
+<p> <h3>Raulymar Delgado</h3></p>
+
+</footer>
+
+
 </html>
