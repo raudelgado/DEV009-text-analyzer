@@ -10,16 +10,13 @@ header {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
-    /*justify-content: center;
-    display: inline-block;*/
+    font-family: 'Raleway', sans-serif;/*justify-content: center;display: inline-block;*/
     text-align: center;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
-    margin-top: auto;
-    /*display: flex;*/
+    margin-top: auto; /*display: flex;*/
     justify-content: center;
     font-size: 165%;
     box-sizing: content-box;
@@ -31,15 +28,13 @@ body {
 
 
 .metricas {
-    /*border: 2px solid red;*/
     width: 1200px;  /*el width siempre debe ser más grande que el de los li incorporados, para que tenga suficiente espacio */
-    height: 200px;
+    height: 200px; /*border: 2px solid red;*/
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
     background-color: transparent;
     display: flex;
-    align-items: center;
- /*   justify-content: center;  esto siempre debe ir en un orden, porque forma parte del display box*/ 
+    align-items: center; /*justify-content: center;  esto siempre debe ir en un orden, porque forma parte del display box*/ 
     align-content: stretch;
     margin: 0. 45;
     flex-wrap: wrap;
