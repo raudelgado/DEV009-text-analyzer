@@ -1,50 +1,168 @@
+
+
 header {
-  
-    background-color: beige;
+    font-family: 'Raleway', sans-serif;
+    height: 107px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
-footer {
-    background-color: beige;
-    
+h1 {
+    font-family: 'Raleway', sans-serif;
+    /*justify-content: center;
+    display: inline-block;*/
+    text-align: center;
 }
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-top: auto;
+    /*display: flex;*/
+    justify-content: center;
+    font-size: 165%;
+    box-sizing: content-box;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(45deg, grey, beige);
+    padding: 0%;
+}
+
 
 .metricas {
-
-    background-color: beige;
+    /*border: 2px solid red;*/
+    width: 1200px;  /*el width siempre debe ser más grande que el de los li incorporados, para que tenga suficiente espacio */
+    height: 200px;
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+ /*   justify-content: center;  esto siempre debe ir en un orden, porque forma parte del display box*/ 
+    align-content: stretch;
+    margin: 0. 45;
+    flex-wrap: wrap;
 }
 
 
 .palabras {
-    background-color: darkgray
+    background-color: lightgray;
+    align-content: center;
+    display: inline-block;
+    border-radius: 40px;
+    border: 3 px solid;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px;    
 }
+
 .caracteres {
-    background-color: darkgray;
+    background-color: lightgray;
+    align-content: center;
+    display: inline-block;
+    border-radius: 40px;
+    border: 3 px solid;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px;
 }
 
 .caracteres-sin {
-    background-color: darkgray;
+    background-color: lightgray;
+    align-content: center;
+    display: inline-block;
+    border-radius: 40px;
+    border: 3 px solid;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px;
 }
 
 
 
 .numeros {
-    background-color: darkgray
+    background-color: lightgray;
+    align-content: center;
+    display: inline-block;
+    border-radius: 40px;
+    border: 3 px solid;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px;
 }
 
 .sumnumeros {
-    background-color: darkgray
+    background-color: lightgray;
+    align-content: center;
+    display: inline-block;
+    border-radius: 40px;
+    border: 3 px solid;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px;
 }
 
 
 .promedio {
-    background-color: darkgray
+    background-color: lightgray;
+    align-content: center;
+    display: inline-block;
+    border-radius: 40px;
+    border: 3 px solid;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px;
 }
 
 
-textarea[name] {
-    background-color: beige;
+textarea[name="user-input"] {
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px;
+    width: 90%;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    font-size: medium;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    display: block;
+    margin: auto;
 }
 
-input#id {
-    background-color: beige;
+#reset-button {
+    font-family: 'Quicksand', sans-serif;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    color: rgb(38, 34, 34);
+    width: 300px;
+    margin-top: 10px;
+    align-self: center;
+    margin: auto;
+    display: block;
+
+}
+
+footer {
+    background-color: transparent;
+    justify-content: center;
+    display: flex;
 }

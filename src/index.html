@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html>
 
-<header>
+<head>
   <meta charset="utf-8">
-  <div>
   <title>Analizador de Texto</title>
-   <h1>Analizador de texto</h1> 
-  </div>
-
-  <link rel="stylesheet" href="style.css"/>
-</header>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
 
 <body>
-  <script src="index.js" type="module"></script>
 
-  <form action="/action_page.php"> 
-  <ul class="metricas"> 
-     <li>
-      <p> <span class="palabras"> Palabras</span></p>
-    </li>
-     <li>
-      <p> <span class="caracteres">Caracteres</span>
-      </p>
-    </li>
-     <li> 
-      <p> <span class="caracteres-sin">Caracteres sin espacios</span></p>
-     </li> 
-     <li>
-      <p> <span  class="numeros">Números</span></p>
-    </li>
-     <li>
-    <p><span class="sumnumeros"> Suma números</span></p>
-    </li>
-     <li>
-      <p><span class="promedio"> Promedio Longitud </span></p>
-    </li>
-  </ul>
-  <textarea name="textarea" minlength="05" placeholder="Inserte su texto aquí..."></textarea>
   
+  <header>
+    <h1>Analizador de texto</h1>
+  </header>
+  <div>
+    <ul class="metricas">
+      <li class="palabras">Palabras: 0</li>
+      <li class="caracteres">Carácteres: 0</li>
+      <li class="caracteres-sin">Carácteres sin espacios: 0</li>
+      <li class="numeros">Números: 0</li>
+      <li class="sumnumeros">Suma números: 0</li>
+      <li class="promedio">Promedio Longitud: 0npm </li>
+    </ul>
+
+  </div>
+
+  <textarea name="user-input" minlength="05" rows="10" cols="50" placeholder="Inserte su texto aquí..."></textarea>
+
   <div> <br>
-  <input id="reset" type="reset" value="Limpiar texto" > 
-  <br> </div>
-</form>
+    <button id="reset-button" value="reset-button"><b>Limpiar métricas</b></button>
+    <br>
+  </div>
+
+
+
+  <footer>
+    <p>
+    <h3>Raulymar Delgado</h3>
+    </p>
+
+  </footer>
+  <script src="index.js" type="module"></script>
 </body>
-
-
-<footer>
-<p> <h3>Raulymar Delgado</h3></p>
-
-</footer>
 
 
 </html>
