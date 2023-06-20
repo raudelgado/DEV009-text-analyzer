@@ -42,7 +42,7 @@ También es útil para profesores, quienes lo usan para evaluar el nivel de difi
     Luego de esto, pasé con mi prototipo de baja fidelidad, en mi mente lo tenía bien claro y esperaba lograr algo netamente parecido. 
     
 
-![prototipo de baja fidelidad](imagenes/Recurso%201PROTOTIPO.png)
+![prototipo de baja fidelidad](imagenes/Recurso%202PROTOTIPO.png)
 
 * *¿Por dónde empiezo?*
     
@@ -53,6 +53,7 @@ También es útil para profesores, quienes lo usan para evaluar el nivel de difi
     No contaba con que el JavaScript sería un poco difícil al principio, no sabía por donde empezar, **¿el index o el analyzer primero?**, así qué básicamente hice lo que pude. 
 
     Bloquearme. 
+
 ![bloqueo](imagenes/giphy.gif)
     
     El bloqueo me duró casi una semana, en la que avancé con otras actividades, entre ellas el organizarme e investigar un montón. 
@@ -97,3 +98,6 @@ Me siento feliz con lo que hice, y orgullosa, aunque sé que hay muchas cosas m�
 
 - [@raudelgado](https://github.com/raudelgado)
 
+
+
+[def]: imagenes/Recurso%2PROTOTIPO.png
