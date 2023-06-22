@@ -24,7 +24,7 @@ const analyzer = {
       sum = sum+lengthWord[i].length
      
     } 
-    return Math.round((sum / lengthWord.length)*100)/100
+    return Math.round((sum / lengthWord.length)*100)/100 // Math.round devuelve el valor de sum redondeado al entero más cercano
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
   getNumberCount: (text) => {
